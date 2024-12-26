@@ -2,15 +2,16 @@
 /* eslint-disable react/no-unescaped-entities */
 import Confetti from 'react-confetti';
 import React from "react";
+import { useRouter } from 'next/navigation';
 
 
 export default function Home() {
   const [confetti, setConfetti] = React.useState(false);
-
+  const router = useRouter();
   const handleClick = () => {
     setConfetti(true);
     setTimeout(() => {
-      window.open('https://wa.me/+919500188309?text=I%20will%20be%20there%20for%20the%20party', '_blank', 'noopener,noreferrer');
+      router.push('https://wa.me/+919500188309?text=I%20will%20be%20there%20for%20the%20party');
     }, 3500);
   }
   
