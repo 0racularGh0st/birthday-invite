@@ -17,16 +17,16 @@ export default function Home() {
   }
   
   return (
-    <div className="w-full h-full font-primary font-semibold">
-      <Image src={BG} alt="bg" layout="fill" objectFit="cover" className="fixed top-0 left-0 z-0" />
-      <div className="flex flex-col z-10 relative text-white items-center justify-center w-[100vw] h-[100vh] px-4 py-10">
-        <h3 className="text-lg mb-6 text-[#dce6ff] text-[24px]" style={{ fontWeight: 600 }}>
-          You are cordially invited to
+    <div className="w-full h-full font-primary font-semibold background-image">
+      {/* <Image src={BG} alt="bg" layout="fill" objectFit="cover" className="fixed top-0 left-0 z-0" /> */}
+      <div className="flex flex-col z-10 relative text-white items-center justify-center w-[100vw] h-[100vh] px-4 py-16">
+        <h3 className="text-lg mb-6 text-[#dce6ff] text-[24px] mt-9">
+          <span className="text-[24px]">You are cordially invited to</span>
         </h3>
-        <h1 className="text-xl text-center text-[#ffffff] text-[40px]" style={{ fontWeight: 600, lineHeight: '44px' }}>
-          Michael's Barbeque / Karaoke Party
+        <h1 className="text-xl text-center text-[#ffffff]" style={{ fontWeight: 600, lineHeight: '40px' }}>
+          <span className="text-[40px]">Michael's Barbeque / Karaoke Party</span>
           <p>&</p>
-          Nigel's Birthday
+          <span className="text-[40px]">Nigel's Birthday</span>
         </h1>
         <h3 className="mt-6 text-center">
           <span className="text-[#dce6ff] text-[24px]">Monday, 30th December 2024</span>
