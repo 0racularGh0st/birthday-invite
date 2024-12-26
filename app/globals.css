@@ -79,4 +79,7 @@ body {
 
 .background-image {
   background-image: url('./public/bg.jpg');
+  background-position: left;
+  background-size: cover;
+  background-attachment: fixed;
 }
