@@ -19,7 +19,7 @@ export default function Home() {
   return (
     <div className="w-full h-full font-primary font-semibold">
       <Image src={BG} alt="bg" layout="fill" objectFit="cover" className="fixed top-0 left-0 z-0" />
-      <div className="flex flex-col z-10 relative text-white items-center justify-center w-[100vw] h-[100vh]">
+      <div className="flex flex-col z-10 relative text-white items-center justify-center w-[100vw] h-[100vh] px-4 py-10">
         <h3 className="text-lg mb-6 text-[#dce6ff] text-[24px]" style={{ fontWeight: 600 }}>
           You are cordially invited to
         </h3>
