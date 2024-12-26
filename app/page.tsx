@@ -10,7 +10,7 @@ export default function Home() {
   const handleClick = () => {
     setConfetti(true);
     setTimeout(() => {
-      window.open('https://wa.me/+919500188309?text=I%20will%20be%20there%20for%20the%20party')
+      window.open('https://wa.me/+919500188309?text=I%20will%20be%20there%20for%20the%20party', '_blank', 'noopener,noreferrer');
     }, 3500);
   }
   
