@@ -1,7 +1,5 @@
 "use client";
 /* eslint-disable react/no-unescaped-entities */
-import Image from "next/image";
-import BG from './public/bg.jpg';
 import Confetti from 'react-confetti';
 import React from "react";
 
